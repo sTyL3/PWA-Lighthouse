@@ -1,0 +1,24 @@
+<p>Post Photo Page</p>
+
+<div class="container-forms">
+<!--    <form [formGroup]="photoForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Photo</mat-label>
+            <ngx-mat-file-input accept="image/x-png,image/jpeg,image/gif" formControlName="photo"></ngx-mat-file-input>
+            <mat-icon matSuffix>folder</mat-icon>
+            <mat-error *ngIf="formControls.photo.hasError('required')">
+                Photo is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Description</mat-label>
+            <input matInput autocomplete="off" formControlName="description">
+            <mat-error *ngIf="formControls.description.hasError('required')">
+                Kanji is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+    </form>-->
+
+    <button color="primary" (click)="onSubmit()">Publish</button>
+</div>

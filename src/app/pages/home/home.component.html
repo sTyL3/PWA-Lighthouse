@@ -1,0 +1,14 @@
+<p>home</p>
+
+<div class="container-photos" *ngIf="photoCollection != undefined">
+  <!--  <mat-card class="photo-card" *ngFor="let photo of photoCollection">
+		<img class="photo-card-img" [src]='photo[1]' />
+<!--		<mat-card-content class="photo-card-content">
+			<mat-card-title>{{ photo[0].description }}</mat-card-title>
+		</mat-card-content>
+		<button color="primary" (click)="like(photo[0])">Send a like</button>
+<!--	</mat-card>-->
+</div>
+
+<button color="primary" (click)="postPhoto()">Post photo</button>
+<button color="primary" (click)="logout()">Logout</button>

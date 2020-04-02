@@ -1,0 +1,14 @@
+//manifest_app.json
+{
+    "name": "hcltech-angular5-pwa",
+    "short_name": "hcltech-angular5-pwa",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [{
+        "src": "assets/app_home_icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "background_color": "#488aff",
+    "theme_color": "#488aff"
+}
